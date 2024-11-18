@@ -17,17 +17,17 @@ Handles missing values, normalization, and feature scaling.
 Employs feature selection techniques to retain the most relevant features.
 Evaluation Metrics:
 
-Accuracy: 
+1.Accuracy: 
 Overall correctness of the model.
-Precision:
+2.Precision:
 Ability to correctly identify malignant tumors.
-Recall:
+3.Recall:
 Sensitivity to detect all malignant cases.
-F1-Score:
+4.F1-Score:
 Balance between precision and recall.
-Visualization:
+5.Visualization:
 Includes visual tools like correlation heatmaps, ROC curves, and feature importance plots.
-Deployment:
+6.Deployment:
 Provides a web-based interface using Streamlit for easy model interaction.
 Users can input feature values and get real-time predictions.
 Steps to Run the Project
@@ -49,18 +49,18 @@ python main.py
 Copy code
 streamlit run app.py
 # **Folder Structure**
-data/: Contains the breast cancer dataset.
-models/: Stores trained model files.
-notebooks/: Jupyter notebooks for exploratory data analysis and experimentation.
-scripts/: Python scripts for preprocessing, training, and evaluation.
-app.py: Streamlit app for user interaction.
+1.data/: Contains the breast cancer dataset.
+2.models/: Stores trained model files.
+3.notebooks/: Jupyter notebooks for exploratory data analysis and experimentation.
+4.scripts/: Python scripts for preprocessing, training, and evaluation.
+5.app.py: Streamlit app for user interaction.
 # **Technologies Used**
 Programming Language: Python
 Libraries:
-Data Processing: Pandas, NumPy
-Machine Learning: Scikit-learn
-Visualization: Matplotlib, Seaborn
-Web Interface: Streamlit
+1.Data Processing: Pandas, NumPy
+2.Machine Learning: Scikit-learn
+3.Visualization: Matplotlib, Seaborn
+4.Web Interface: Streamlit
 # **Usage Scenarios**
 Assisting doctors in preliminary screening of breast cancer.
 Educational purposes to demonstrate the application of machine learning in healthcare.
